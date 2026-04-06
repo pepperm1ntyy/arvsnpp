@@ -1,4 +1,43 @@
 :root {
-    background-color: #9F84BD;
+    --primary-color: #ffb0df;
+    --secondary-color: #ce7dba;
+    --accent-color: #EBC3DB;
+    --bg-color: #9F84BD;
+}
+
+body {
+    background-color: var(--bg-color);
     color: white;
 }
+/* HTML TAGS */
+hr {
+    border: none;
+    border-top: 5px solid var(--primary-color);
+    padding: 5px;
+   
+}
+
+.visualites-title-border {
+    border: 3px solid #C09BD8;
+    padding-top: 2px;
+    text-align: center;
+    margin: 20px;
+    background-image: linear-gradient(to bottom right, #ffb0df, #9b76bd);
+    border-radius: 15px;
+}
+
+/* TEXT TITLE */
+.visualites-title {
+    font-size: 105%;
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 100;
+}
+
+/* CARDS */
+.card {
+    border: 2px solid var(--secondary-color);
+    margin: 10px;
+    padding: 10px;
+}
+
+/* CONTAINER */
