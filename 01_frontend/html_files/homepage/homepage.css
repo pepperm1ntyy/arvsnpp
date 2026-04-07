@@ -1,0 +1,8 @@
+/* CARDS */
+.card {
+    border: 2px solid var(--secondary-color);
+    margin: 10px;
+    padding: 10px;
+}
+
+/* CONTAINER */
