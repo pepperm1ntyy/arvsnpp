@@ -9,26 +9,29 @@ body {
     background-color: var(--bg-color);
     color: white;
 }
+
+
+
 /* HTML TAGS */
 hr {
     border: none;
     border-top: 5px solid var(--primary-color);
-    padding: 5px;
+    padding: 0.25rem;
    
 }
 
 .visualites-title-border {
     border: 3px solid #C09BD8;
-    padding-top: 2px;
+    padding-top: 0.313rem;
     text-align: center;
-    margin: 20px;
+    margin: 0.313rem;
     background-image: linear-gradient(to bottom right, #ffb0df, #9b76bd);
     border-radius: 15px;
 }
 
 /* TEXT TITLE */
 .visualites-title {
-    font-size: 105%;
+    font-size: 1rem;
     font-family: "Bonheur Royale", cursive;
     font-weight: 100;
 }
